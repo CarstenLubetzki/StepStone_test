@@ -8,14 +8,18 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/normalize.css"/>
     <link rel="stylesheet" href="source/00-atoms/images/16x9/16x9.css"/>
+    <link rel="stylesheet" href="source/00-atoms/images/4x3/4x3.css"/>
     <link rel="stylesheet" href="source/00-atoms/headlines/h1/h1.css"/>
+    <link rel="stylesheet" href="source/00-atoms/videos/video.css">
+    <link rel="stylesheet" href="source/00-atoms/images/picture/picture.css">
 </head>
 <body>
 <?php
 include "source/00-atoms/headlines/h1/h1.php";
-include "source/00-atoms/headlines/h1/h1.php";
-include "source/00-atoms/images/16x9/16x9.php";
 
+include "source/00-atoms/images/picture/picture.php";
+
+include "source/00-atoms/videos/video.php";
 
 ?>
 

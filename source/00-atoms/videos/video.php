@@ -2,6 +2,7 @@
        controls
 >
 
-    <source src="source/small.mp4" type="video/mp4" />
+    <source src="http://video.webmfiles.org/elephants-dream.webm" />
+    <source src="source/mov_bbb.ogg" type="video/ogg" />
 
 </video>

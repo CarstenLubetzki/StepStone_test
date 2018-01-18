@@ -1,0 +1,8 @@
+.list1{
+    list-style-type: none;
+    color: #2E9AFE;
+    text-transform: uppercase;
+}
+.list2{
+    list-style-type: decimal;
+}

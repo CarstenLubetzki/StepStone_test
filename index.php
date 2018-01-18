@@ -10,9 +10,12 @@
     <link rel="stylesheet" href="source/00-atoms/images/16x9/16x9.css"/>
     <link rel="stylesheet" href="source/00-atoms/images/4x3/4x3.css"/>
     <link rel="stylesheet" href="source/00-atoms/headlines/h1/h1.css"/>
+    <link rel="stylesheet" href="source/00-atoms/headlines/h2/h2.css"/>
+    <link rel="stylesheet" href="source/00-atoms/headlines/h3/h3.css"/>
     <link rel="stylesheet" href="source/00-atoms/videos/video.css">
     <link rel="stylesheet" href="source/00-atoms/images/picture/picture.css">
     <link rel="stylesheet" href="source/00-atoms/lists/list.css">
+    <link rel="stylesheet" href="source/00-atoms/dropdown/dropdown.css">
 </head>
 <body>
 <?php
@@ -24,11 +27,18 @@ include "source/00-atoms/videos/video.php";
 */
 include "source/00-atoms/lists/olist.php";
 
+include "source/00-atoms/headlines/h2/h2.php";
+
 include "source/00-atoms/lists/ulist.php";
 
-include "source/00-atoms/icons/icon.php"
+include "source/00-atoms/headlines/h3/h3.php";
+/*
+include "source/00-atoms/icons/icon.php";
+*/
+include "source/00-atoms/dropdown/dropdown.php";
 
 ?>
+
 
 
 </body>

@@ -2,3 +2,7 @@
     font-size: 0.8rem;
     text-align: justify;
 }
+.spalten{
+    column-count: 2;
+    width: 100%;
+}

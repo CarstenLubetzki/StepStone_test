@@ -1,6 +1,6 @@
-<ol class="list2">
-    <li>Schellnsau</li>
-    <li>Weiznglasl</li>
-    <li>Broadwurschtbudn</li>
-    <li>Weibaleid</li>
+<ol class="olist">
+    <li><a class="textlink" href="#">Schellnsau</a></li>
+    <li><a class="textlink" href="#">Weiznglasl</a></li>
+    <li><a class="textlink" href="#">Broadwurschtbudn</a></li>
+    <li><a class="textlink" href="#">Weibaleid</a></li>
 </ol>

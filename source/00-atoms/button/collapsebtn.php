@@ -1,0 +1,1 @@
+<button type="button" class="collapse">+&nbsp;Weiterlesen</button>

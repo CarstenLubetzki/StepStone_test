@@ -14,8 +14,13 @@
     <link rel="stylesheet" href="source/00-atoms/headlines/h3/h3.css"/>
     <link rel="stylesheet" href="source/00-atoms/videos/video.css">
     <link rel="stylesheet" href="source/00-atoms/images/picture/picture.css">
-    <link rel="stylesheet" href="source/00-atoms/lists/list.css">
+    <link rel="stylesheet" href="source/00-atoms/lists/olist.css">
+    <link rel="stylesheet" href="source/00-atoms/lists/ulist.css">
     <link rel="stylesheet" href="source/00-atoms/dropdown/dropdown.css">
+    <link rel="stylesheet" href="source/00-atoms/link/link.css">
+    <link rel="stylesheet" href="source/00-atoms/button/button.css">
+    <link rel="stylesheet" href="source/00-atoms/input/input.css">
+    <link rel="stylesheet" href="source/00-atoms/text/text.css">
 </head>
 <body>
 <?php
@@ -27,6 +32,8 @@ include "source/00-atoms/videos/video.php";
 */
 include "source/00-atoms/lists/olist.php";
 
+include "source/00-atoms/link/link.php";
+
 include "source/00-atoms/headlines/h2/h2.php";
 
 include "source/00-atoms/lists/ulist.php";
@@ -36,6 +43,16 @@ include "source/00-atoms/headlines/h3/h3.php";
 include "source/00-atoms/icons/icon.php";
 */
 include "source/00-atoms/dropdown/dropdown.php";
+
+include "source/00-atoms/input/input.php";
+
+include "source/00-atoms/input/input.php";
+
+include "source/00-atoms/button/button.php";
+
+include "source/00-atoms/text/text.php";
+
+include "source/00-atoms/button/collapsebtn.php";
 
 ?>
 

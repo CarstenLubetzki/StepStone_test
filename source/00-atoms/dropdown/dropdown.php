@@ -1,6 +1,6 @@
-<div class="dropdown">
-    <select class="dropdown-content">
-        <option>DE</option>
-        <option>EN</option>
-    </select>
-</div>
+<select class="dropdown">
+    <option>De</option>
+    <option>En</option>
+    <option>Fr</option>
+    <option>It</option>
+</select>

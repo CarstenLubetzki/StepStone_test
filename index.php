@@ -21,15 +21,22 @@
     <link rel="stylesheet" href="source/00-atoms/button/button.css">
     <link rel="stylesheet" href="source/00-atoms/input/input.css">
     <link rel="stylesheet" href="source/00-atoms/text/text.css">
+    <link rel="stylesheet" href="source/01-molecules/navigation/navigation.css">
+    <link rel="stylesheet" href="source/01-molecules/form/form.css">
 </head>
 <body>
 <?php
-include "source/00-atoms/headlines/h1/h1.php";
+include "source/01-molecules/navigation/navigation.php";
+
+include "source/01-molecules/form/form.php";
+
 /*
+include "source/00-atoms/headlines/h1/h1.php";
+
 include "source/00-atoms/images/picture/picture.php";
 
 include "source/00-atoms/videos/video.php";
-*/
+
 include "source/00-atoms/lists/olist.php";
 
 include "source/00-atoms/link/link.php";
@@ -39,9 +46,9 @@ include "source/00-atoms/headlines/h2/h2.php";
 include "source/00-atoms/lists/ulist.php";
 
 include "source/00-atoms/headlines/h3/h3.php";
-/*
+
 include "source/00-atoms/icons/icon.php";
-*/
+
 include "source/00-atoms/dropdown/dropdown.php";
 
 include "source/00-atoms/input/input.php";
@@ -53,7 +60,7 @@ include "source/00-atoms/button/button.php";
 include "source/00-atoms/text/text.php";
 
 include "source/00-atoms/button/collapsebtn.php";
-
+*/
 ?>
 
 

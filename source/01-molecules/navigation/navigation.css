@@ -1,0 +1,10 @@
+.navigation{
+    width: 100%;
+    list-style-type: none;
+    float: right;
+}
+.navigation li{
+    float: left;
+    margin-left: 20px;
+
+}

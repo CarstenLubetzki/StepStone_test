@@ -1,0 +1,13 @@
+.text_container{
+    width: 100%;
+    text-align: left;
+    display: block;
+    position: absolute;
+    clear: left;
+}
+.img_float{
+    width: 150px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}

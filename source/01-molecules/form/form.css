@@ -2,6 +2,22 @@
     width: 100%;
     text-align: center;
 }
-.form{
-    display: block;
+.formular{
+    height: 100px;
+    margin-left:30%;
+}
+.formular a{
+    font-size: 0.8rem;
+    text-align: left;
+}
+.floating{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.text{
+    text-align: left;
+}
+.search_form{
+    background-image: url("img/bg.jpg");
 }

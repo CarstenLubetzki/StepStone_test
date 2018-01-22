@@ -23,12 +23,18 @@
     <link rel="stylesheet" href="source/00-atoms/text/text.css">
     <link rel="stylesheet" href="source/01-molecules/navigation/navigation.css">
     <link rel="stylesheet" href="source/01-molecules/form/form.css">
+    <link rel="stylesheet" href="source/01-molecules/text_container/text_container.css">
+    <link rel="stylesheet" href="source/01-molecules/CtA_box/cta_box.css">
 </head>
 <body>
 <?php
 include "source/01-molecules/navigation/navigation.php";
 
 include "source/01-molecules/form/form.php";
+
+include "source/01-molecules/text_container/text_container.php";
+
+include "source/01-molecules/CtA_box/cta_box.php";
 
 /*
 include "source/00-atoms/headlines/h1/h1.php";

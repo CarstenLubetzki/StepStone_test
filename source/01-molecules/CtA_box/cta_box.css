@@ -1,0 +1,10 @@
+.cta_box{
+    width: 220px;
+    height: 220px;
+    border: 1px solid #8e97a4;
+}
+.cta_icon{
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}

@@ -1,10 +1,19 @@
 .cta_box{
-    width: 220px;
-    height: 220px;
+    width: 230px;
+    height: auto;
     border: 1px solid #8e97a4;
+    padding-top: 10px;
 }
 .cta_icon{
     width: 50%;
-    padding: 20px;
+    padding: auto;
+    margin: auto;
+    margin-top: 10px:
+}
+.cta_headline{
     text-align: center;
+}
+.cta_text{
+    margin-left: 5px ;
+    margin-right: 5px;
 }

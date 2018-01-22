@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
     <link rel="stylesheet" href="source/00-atoms/images/16x9/16x9.css"/>
     <link rel="stylesheet" href="source/00-atoms/images/4x3/4x3.css"/>
     <link rel="stylesheet" href="source/00-atoms/headlines/h1/h1.css"/>
@@ -25,17 +26,23 @@
     <link rel="stylesheet" href="source/01-molecules/form/form.css">
     <link rel="stylesheet" href="source/01-molecules/text_container/text_container.css">
     <link rel="stylesheet" href="source/01-molecules/CtA_box/cta_box.css">
+    <link rel="stylesheet" href="source/02-organismus/cta_container/cta_container.css">
+    <link rel="stylesheet" href="source/02-organismus/linksammlung/linksammlung.css">
+    <link rel="stylesheet" href="source/02-organismus/bildstoerer/bildstoerer.css">
 </head>
 <body>
+<div><?php include "source/01-molecules/navigation/navigation.php"; ?></div>
+
+<div><?php include "source/01-molecules/form/form.php"; ?></div>
+
+<div><?php /*include "source/01-molecules/text_container/text_container.php"; */?></div>
+
+<div><?php include "source/02-organismus/cta_container/cta_container.php"; ?></div>
+
+<div><?php include "source/02-organismus/linksammlung/linksammlung.php"; ?></div>
+
+<div><?php include "source/02-organismus/bildstoerer/bildstoerer.php"; ?></div>
 <?php
-include "source/01-molecules/navigation/navigation.php";
-
-include "source/01-molecules/form/form.php";
-
-include "source/01-molecules/text_container/text_container.php";
-
-include "source/01-molecules/CtA_box/cta_box.php";
-
 /*
 include "source/00-atoms/headlines/h1/h1.php";
 

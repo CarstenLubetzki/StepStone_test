@@ -15,6 +15,46 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+.item-a {
+    grid-area: header;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: row1-start;
+    grid-row-end: 2;
+    justify-self: end;
+    align-self: center;
+}
+.item-b {
+    grid-area: main;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-self: center;
+    align-self: center;
+}
+.item-c {
+    grid-area: footer;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: end;
+    justify-self: stretch;
+    align-self: center;
+}
+.container{
+
+    display: grid;
+    grid-template-columns: 120px auto 120px;
+    grid-template-rows: 50px auto 200px;
+    grid-gap: 0px 0px;
+    grid-template-areas:
+". header ."
+". main ."
+". footer .";
+    justify-items: center;
+    align-items: start;
+}
 
 /*
  * Remove text-shadow in selection highlight:

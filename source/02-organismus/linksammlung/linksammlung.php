@@ -1,0 +1,20 @@
+<div class="h1_distances"><?php include "source/00-atoms/headlines/h1/h1.php"; ?></div>
+<div class="linksammlung">
+        <div class="sammlung auflistung"><?php include "source/00-atoms/link/link.php"; ?></div>
+        <div class="sammlung auflistung"><?php include "source/00-atoms/link/link.php"; ?></div>
+        <div class="sammlung auflistung"><?php include "source/00-atoms/link/link.php"; ?></div>
+        <div class="sammlung auflistung"><?php include "source/00-atoms/link/link.php"; ?></div>
+        <div class="sammlung auflistung"><?php include "source/00-atoms/link/link.php"; ?></div>
+        <div class="sammlung auflistung"><?php include "source/00-atoms/link/link.php"; ?></div>
+        <div class="sammlung auflistung"><?php include "source/00-atoms/link/link.php"; ?></div>
+        <div class="sammlung auflistung"><?php include "source/00-atoms/link/link.php"; ?></div>
+        <div class="sammlung auflistung"><?php include "source/00-atoms/link/link.php"; ?></div>
+        <div class="sammlung auflistung"><?php include "source/00-atoms/link/link.php"; ?></div>
+        <div class="sammlung auflistung"><?php include "source/00-atoms/link/link.php"; ?></div>
+        <div class="sammlung auflistung"><?php include "source/00-atoms/link/link.php"; ?></div>
+        <div class="sammlung auflistung"><?php include "source/00-atoms/link/link.php"; ?></div>
+        <div class="sammlung auflistung"><?php include "source/00-atoms/link/link.php"; ?></div>
+        <div class="sammlung auflistung"><?php include "source/00-atoms/link/link.php"; ?></div>
+        <div class="sammlung auflistung"><?php include "source/00-atoms/link/link.php"; ?></div>
+        <div class="sammlung auflistung"><?php include "source/00-atoms/link/link.php"; ?></div>
+</div>

@@ -1,0 +1,9 @@
+.linksammlung{
+    display: flex;
+    align-items: left;
+justify-content: center;
+}
+.sammlung{
+    margin-left: 10px;
+    margin-bottom: 50px;
+}

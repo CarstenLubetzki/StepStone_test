@@ -1,17 +1,16 @@
 .navigation{
     width: 100%;
     height: 50px;
-    display: block;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
     background-color: white;
     padding-top:30px;
     margin-bottom: 30px;
-
-
+    padding-right: 50px;
 }
 .navigation ul {
     list-style-type: none;
-    float: right;
-    margin-right: 50px;
 }
 .navigation li{
     float: left;

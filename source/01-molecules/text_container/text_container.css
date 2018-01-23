@@ -1,9 +1,9 @@
 .text_container{
-    width: 100%;
     text-align: left;
     display: block;
     position: absolute;
     clear: left;
+    overflow: auto;
 }
 .img_float{
     width: 150px;

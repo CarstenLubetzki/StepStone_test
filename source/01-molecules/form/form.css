@@ -4,24 +4,26 @@
     height: 350px;
     display: block;
 }
+
 .head_form{
-    width: 100%;
-    text-align: center;
-padding-top: 60px;
+text-align: center;
+padding-top:40px;
 }
 .formular{
-    height: 100px;
-    margin-left:30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.formular > div{
+    margin: 10px;
 }
 .formular a{
     font-size: 0.8rem;
     text-align: left;
-}
-.floating{
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-.text{
     text-align: left;
+}
+.formular .input_container{
+    flex-shrink: 0;
+    flex-basis: 33.3333%;
+    align-items: center;
 }

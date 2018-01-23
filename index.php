@@ -31,17 +31,25 @@
     <link rel="stylesheet" href="source/02-organismus/bildstoerer/bildstoerer.css">
 </head>
 <body>
-<div><?php include "source/01-molecules/navigation/navigation.php"; ?></div>
-
-<div><?php include "source/01-molecules/form/form.php"; ?></div>
-
-<div><?php /*include "source/01-molecules/text_container/text_container.php"; */?></div>
-
-<div><?php include "source/02-organismus/cta_container/cta_container.php"; ?></div>
-
-<div><?php include "source/02-organismus/linksammlung/linksammlung.php"; ?></div>
-
-<div><?php include "source/02-organismus/bildstoerer/bildstoerer.php"; ?></div>
+<header>
+    <nav>
+        <?php include "source/01-molecules/navigation/navigation.php"; ?>
+    </nav>
+</header>
+<article>
+    <?php include "source/01-molecules/form/form.php"; ?>
+</article>
+<article>
+    <section>
+        <?php include "source/02-organismus/cta_container/cta_container.php"; ?>
+    </section>
+    <section>
+        <?php include "source/02-organismus/linksammlung/linksammlung.php"; ?>
+    </section>
+</article>
+<article>
+    <?php include "source/02-organismus/bildstoerer/bildstoerer.php"; ?>
+</article>
 <?php
 /*
 include "source/00-atoms/headlines/h1/h1.php";

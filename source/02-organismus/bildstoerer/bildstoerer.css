@@ -1,8 +1,19 @@
-.overlay{
-    float: left;
-    width: 30%;
-    display: block;
+.wrapper{
+    display: flex;
+    justify-content: center;
 }
 .context{
-
+    float: left;
+    margin: 10px;
+    padding-top:50px;
+    padding-right: 150px;
 }
+.overlay{
+    float:left;
+    height: 375px;
+    margin: 10px;
+    position: relative;
+    bottom: 35px;
+    right: 100px;
+}
+
